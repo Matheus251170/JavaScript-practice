@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cifra</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="contar()">
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <section>
+     
+        <div>
+           <p>Número de inicio:
+               <input type="number" name='inicio' id="inicio" min="0">
+           </p>
+
+            <p>Número final:
+                <input type="number" name='final' id="final" min="1">
+            </p>
+
+            <p>Passo:
+                <input type="number" name='passo' id="passo" min="1">
+            </p>
+
+            <p>
+               <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+        <div  id='res'>
+            Gerando resultado...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Atividade</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
